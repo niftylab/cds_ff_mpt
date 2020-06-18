@@ -42,3 +42,10 @@ calibreview.setup
 .QRC.run
 .preRcx.Last.State
 .qrc.Last.state
+
+# laygo files
+adc_sar*
+*logic_templates*
+laygo_working
+*.gds
+
