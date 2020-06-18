@@ -31,7 +31,7 @@ database:
     # simulators where termOrder CDF field should be filled
     simulators: ["auLvs", "auCdl", "spectre", "hspiceD"]
     # libraries to exclude for schematic import
-    exclude_libraries: ["analogLib", "basic", "cds_ff_mpt"]
+    exclude_libraries: ["analogLib", "basic", "cds_ff_mpt", "cds_ff_mpt_microtemplates_dense"]
   # configurations for testbench creation
   testbench:
     # config view global libraries
