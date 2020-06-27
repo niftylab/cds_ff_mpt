@@ -48,4 +48,4 @@ adc_sar*
 *logic_templates*
 laygo_working
 *.gds
-
+serdes_generated*
