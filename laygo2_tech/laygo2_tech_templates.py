@@ -700,8 +700,8 @@ def mos_flex_generate_func(devtype, name=None, shape=None, pitch=None, transform
         nelements['RIM0_FLEX_G_LiPo0_'+str(i)] = rg
     # Gate metal
     for i in range(round(params['nf']/2)):
-        rg_xy = [[cursor[0] + 70+params['unit_size_dmy'][0]*i, inst_unit_size[1]-200],\
-                 [cursor[0] + 102+params['unit_size_dmy'][0]*i, inst_unit_size[1]-56]]
+        rg_xy = [[cursor[0] + 70-24+params['unit_size_dmy'][0]*i, inst_unit_size[1]-136],\
+                 [cursor[0] + 102+24+params['unit_size_dmy'][0]*i, inst_unit_size[1]-56]]
         rg = laygo2.object.Rect(xy=rg_xy, layer=['M1', 'drawing'], name='RIM0_FLEX_G_M1_0_'+str(i)) 
         nelements['RIM0_FLEX_G_M1_0_'+str(i)] = rg
         rg_xy = [[cursor[0] + 70+params['unit_size_dmy'][0]*i, inst_unit_size[1]-111],\
