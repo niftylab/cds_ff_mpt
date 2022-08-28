@@ -49,3 +49,4 @@ adc_sar*
 laygo_working
 *.gds
 serdes_generated*
+CCS*
